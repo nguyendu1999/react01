@@ -1,24 +1,15 @@
-import logo from './logo.svg';
-import './App.css';
-
+import BoxMilk from "./Components/Button/BoxMilk/BoxMilk";
+import { products } from "./data/data (1)";
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+      <h1>Danh sách sản phẩm</h1>
+      {products.map((index)=>{
+        return (
+          <BoxMilk img={index.image} name={index.name} desc={index.desc} price={index.price}/>
+        )
+      })}
+    </>
   );
 }
 

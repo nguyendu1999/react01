@@ -1,0 +1,33 @@
+span{
+    border-radius: 20px ;
+    border: 1 solid;
+    background: blue;
+}
+.boxBig{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+.boxRadius{
+    margin-top: 20px;
+    border-radius: 10px;
+    background: blue;
+}
+.boxImg{
+    height: 100%;
+    padding: 30px
+}
+.box2{
+    width: 300px;
+    margin: 30px;
+}
+.box3{
+    
+    display: flex;
+    justify-content: space-around;
+}
+button{
+    padding:  10px;
+    border-radius: 5px ;
+}
