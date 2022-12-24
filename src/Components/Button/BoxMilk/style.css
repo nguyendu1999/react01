@@ -1,33 +1,32 @@
-span{
-    border-radius: 20px ;
-    border: 1 solid;
-    background: blue;
+h1{
+    text-align: center;
+    color: brown;
 }
 .boxBig{
     display: flex;
     justify-content: center;
     align-items: center;
     width: 100%;
-}
-.boxRadius{
-    margin-top: 20px;
-    border-radius: 10px;
-    background: blue;
+    background:wheat;
+    border-radius: 30px;
+    margin: 20px 0;
 }
 .boxImg{
     height: 100%;
-    padding: 30px
+    padding: 50px;
+    border-radius:70px;
 }
 .box2{
     width: 300px;
-    margin: 30px;
+    margin: 20px;
 }
 .box3{
-    
     display: flex;
     justify-content: space-around;
 }
 button{
-    padding:  10px;
-    border-radius: 5px ;
+    padding: 0 30px;
+    border-radius: 5px;
+    background: aqua;
+    cursor: pointer;
 }
