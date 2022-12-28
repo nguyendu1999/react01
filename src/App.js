@@ -3,8 +3,8 @@ import { products } from "./data/data (1)";
 function App() {
   return (
     <>
-    <h1>Danh sách sản phẩm</h1>
-      {products.map((index)=>{
+    <h3>Danh sách sản phẩm</h3>
+      {products.map((index)=>{    
         return (
           <>
           <BoxMilk img={index.image} name={index.name} desc={index.desc} price={index.price}/>

@@ -1,4 +1,7 @@
-h1{
+body{
+
+}
+h3{
     text-align: center;
     color: brown;
 }
@@ -6,19 +9,17 @@ h1{
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 100%;
-    background:wheat;
-    border-radius: 30px;
-    margin: 20px 0;
+    margin: 100px ;
+    box-shadow: 2px 2px 10px 10px rgb(203, 212, 226) ;
+    flex-wrap: wrap;
 }
 .boxImg{
     height: 100%;
-    padding: 50px;
-    border-radius:70px;
+    border-radius:10px;
 }
 .box2{
     width: 300px;
-    margin: 20px;
+    margin: 70px;
 }
 .box3{
     display: flex;
